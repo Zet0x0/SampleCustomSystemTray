@@ -18,7 +18,7 @@ Window {
     }
 
     color: "#00000000" // make the window transparent to support menus with rounded edges
-    flags: Qt.Popup
+    flags: Qt.Popup | Qt.NoDropShadowWindowHint
     height: menu.height
     width: menu.width
 
